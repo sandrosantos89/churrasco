@@ -1,0 +1,96 @@
+body{
+    
+    background-image: url(./imagens/fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: brown; 
+   
+}
+
+#header{
+    background-color: rgb(187, 167, 56);
+    margin: auto;
+    color: #ffff;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.container{
+
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    margin: auto;    
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(212, 209, 20, 0.329);
+    display: block;
+    border-radius: 10px;
+    margin-top: 50px;
+     
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+input{
+    
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+     
+}
+
+#calcular{
+    background-color:rgba(250, 180, 29, 0.774);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    
+    width: 120px;
+}
+
+#limpar{
+    background-color:rgba(250, 81, 29, 0.644);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 120px;
+}
+
+#botao{
+    margin:auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#calcular:hover{
+    background-color: rgb(255, 174, 0);
+}
+
+#limpar:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+#resultado{
+    color:rgb(3, 3, 3);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    
+
+
+
